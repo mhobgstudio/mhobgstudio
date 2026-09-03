@@ -29,7 +29,7 @@ We build modern software — from AI-powered tools and web platforms to Islamic 
 | [the-System](https://github.com/mhobgstudio/the-System) | Gamified productivity & spiritual tracking system | JavaScript |
 | [Quranic Words App](https://github.com/mhobgstudio/Quranic-Words-App) | Memorize every word in the Quran | JavaScript |
 | [Salah App](https://github.com/mhobgstudio/Salah-app) | Comprehensive prayer teaching app | JavaScript |
-| [Free Palestine Archive](https://github.com/mhobgstudio/Free_Palestine) | 50,000+ names documented | HTML |
+| [M-Tech Studio](https://mhobestudio.vercel.app/) | 50+ vibecoded softwares | HTML/JS |
 
 ## Tech Stack
 

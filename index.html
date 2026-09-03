@@ -7,6 +7,7 @@
   <meta name="description" content="MHOBG Studio is a full-stack software development studio building modern web apps, AI tools, Islamic digital solutions, and accessibility platforms." />
   <meta name="keywords" content="MHOBG Studio, Heavenly_Dev, web development, AI, Islamic apps, software, Ghana, KNUST" />
   <meta name="author" content="Abdul Rahman Mohammed" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1009,22 +1010,7 @@
           </div>
         </a>
 
-        <!-- Free_Palestine -->
-        <a href="https://mhobgstudio.github.io/Free_Palestine/" target="_blank" rel="noopener" class="portfolio-card fade-in">
-          <div class="portfolio-preview" style="background: linear-gradient(135deg, #1a0a0a, #0a0a1a);">
-            <div class="preview-overlay" style="position:absolute;inset:0;background:radial-gradient(circle at 50% 50%, rgba(239,68,68,0.08), transparent 60%);"></div>
-            <span class="project-type">Documentation</span>
-          </div>
-          <div class="portfolio-body">
-            <h3>Free Palestine Archive</h3>
-            <p>1,516 pages documenting the names of 50,000+ lives lost in Gaza. A solemn digital memorial and archival project preserving historical record through data.</p>
-            <div class="portfolio-tags">
-              <span>Data</span><span>Archive</span><span>HTML</span><span>Human Rights</span>
-            </div>
-          </div>
-        </a>
-
-      </div>
+        </div>
     </div>
   </section>
 
@@ -1159,10 +1145,10 @@
         </div>
 
         <form class="contact-form fade-in-right" id="contactForm">
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <input type="text" placeholder="Subject" />
-          <textarea placeholder="Tell me about your project..." required></textarea>
+          <input type="text" id="contact-name" name="name" placeholder="Your Name" required aria-label="Your Name" />
+          <input type="email" id="contact-email" name="email" placeholder="Your Email" required aria-label="Your Email" />
+          <input type="text" id="contact-subject" name="subject" placeholder="Subject" aria-label="Subject" />
+          <textarea id="contact-message" name="message" placeholder="Tell me about your project..." required aria-label="Message"></textarea>
           <button type="submit" class="btn btn-primary">
             Send Message <i class="fas fa-paper-plane"></i>
           </button>
